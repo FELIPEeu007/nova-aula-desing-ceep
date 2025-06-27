@@ -15,11 +15,36 @@ header{
     color:white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #007bff;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0,0,0, 0,);
+}
+
+.logo-link{
+    display: block;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 40px;
+}
 header h1{
     margin: 0;
     font-size: 2rem;
 }
-
 nav ul{
     list-style-type: none;
     padding: 0;
@@ -48,6 +73,7 @@ nav ul li a:hover {
 main {
     padding: 20px;
     margin: 20px auto;
+    margin-top: 60px;
     max-width: 1000px;
     background-color: white;
     border-radius: 8px;
@@ -159,8 +185,11 @@ footer {
         margin: 10px 0;
     }
 
-    max {
-        margin: 10px;
+    main {
+        padding: 15px;
+    }
+    section h2{
+        font-size: 1.6rem;
     }
 
     form input, form textarea {
